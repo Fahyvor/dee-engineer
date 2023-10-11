@@ -26,7 +26,7 @@ const EmailCapture = () => {
     <div className='w-full'>
       <form className='flex
       flex-col items-center
-      w-full' onClick={handleEmailSubmit}>
+      w-full' onSubmit={handleEmailSubmit}>
       <input
         type="email"
         placeholder="Enter your email"
